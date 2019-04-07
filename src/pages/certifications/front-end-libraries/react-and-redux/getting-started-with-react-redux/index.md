@@ -3,7 +3,31 @@ title: Getting Started with React Redux
 ---
 ## Getting Started with React Redux
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react-and-redux/getting-started-with-react-redux/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+### Hint 1
+Do remember to pass props to constructor
+
+### Hint 2
+Do remember super(props) in constructor
+
+### Solution
+```jsx
+class DisplayMessages extends React.Component {
+  // change code below this line
+  constructor(props){
+    super(props);
+    this.state={
+      input:'',
+      messages:[]
+    }
+  }
+  // change code above this line
+  render() {
+    return <div />
+  }
+};
+```jsx
+
+<a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/front-end-libraries/react-and-redux/getting-started-with-react-redux/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
 
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
